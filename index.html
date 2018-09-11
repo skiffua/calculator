@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body >
+    <div id="calculatorArea">
+        <input id="secondaryWindow" type="text" name="secondWindow" readonly><br>
+        <input id="mainOutputWindow" autofocus type="text" name="outWindow" readonly><br>
+        <input type="button" class='digits' name="digit7" value="7" data-code="7">
+        <input type="button" class='digits' name="digit8" value="8" data-code="8">
+        <input type="button" class='digits' name="digit9" value="9" data-code="9">
+        <input type="button" class='operations' name="operation/" value="/">
+        <input type="button" class='operations' name="operationClean" value="C" data-code="cButton"><br>
+        <input type="button" class='digits' name="digit4" value="4" data-code="4">
+        <input type="button" class='digits' name="digit5" value="5" data-code="5">
+        <input type="button" class='digits' name="digit6" value="6" data-code="6">
+        <input type="button" class='operations' name="operation*" value="*"><br>
+        <input type="button" class='digits' name="digit1" value="1" data-code="1">
+        <input type="button" class='digits' name="digit2" value="2" data-code="2">
+        <input type="button" class='digits' name="digit3" value="3" data-code="3">
+        <input type="button" class='operations' name="operation-" value="-"><br>
+        <input type="button" class='digits' name="digit0" value="0" data-code="0">
+        <input type="button" class='symbols' name="dot" value=".">
+        <input type="button" class='operations' name="operation=" value="=">
+        <input type="button" class='operations' name="operation+" value="+"><br>
+    </div>
+    <h1>Калькулятор</h1>
+        <h2>версія 1.0. Основні можливості</h2>
+            <p>Введення <b>тільки цифр</b> з цифрової клавіатури, числова рядка символів</p>
+            <p>Зона keyDown на усій зоні калькулятора</p>
+            <p>Відсутній мигаючий курсор в полі введення</p>
+            <p>блокування введення "першого нуля"</p>
+            <p>автоматичний фокус на калькуляторі після завантаження сторінки</p>
+
+
+    <script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+input[type="text"] {
+    font-size: xx-large;
+    width: 250px;
+    height: 50px;
+    text-align: right;
+}
+
+#secondaryWindow {
+    height: 20px;
+}
+
+input[type="button"] {
+    width: 50px;
+    height: 50px;
+}
+
